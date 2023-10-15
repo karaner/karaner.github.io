@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Games101 on 全知之树</title>
+        <link>https://karaner.github.io/categories/games101/</link>
+        <description>Recent content in Games101 on 全知之树</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>WYH</copyright>
+        <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://karaner.github.io/categories/games101/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>向量和线性代数</title>
+        <link>https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</link>
+        <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</guid>
+        <description>&lt;h1 id=&#34;1向量和线性代数&#34;&gt;1、向量和线性代数&lt;/h1&gt;
+&lt;h2 id=&#34;11-向量的点积&#34;&gt;1.1 向量的点积&lt;/h2&gt;
+&lt;p&gt;1、分解向量，做投影&lt;/p&gt;
+&lt;p&gt;2、通过点积的正负值，判断前后关系&lt;/p&gt;
+&lt;p&gt;3、点积满足 交换律、分配律、结合律&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-14-34-07.png&#34;
+	width=&#34;1194&#34;
+	height=&#34;415&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-14-34-07_hu9a54d7cb90013ad4c936c5e902551cd6_71764_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-14-34-07_hu9a54d7cb90013ad4c936c5e902551cd6_71764_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;287&#34;
+		data-flex-basis=&#34;690px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-22-19.png&#34;
+	width=&#34;1057&#34;
+	height=&#34;474&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-22-19_hu4bf74bf88887b4de20967f92eb139557_32363_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-22-19_hu4bf74bf88887b4de20967f92eb139557_32363_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;222&#34;
+		data-flex-basis=&#34;535px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;12-向量的叉积&#34;&gt;1.2 向量的叉积&lt;/h2&gt;
+&lt;p&gt;1、判断左右&lt;/p&gt;
+&lt;p&gt;2、判断内外&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-03-09.png&#34;
+	width=&#34;1205&#34;
+	height=&#34;298&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-03-09_hu4ff013139ca6dd1f7331ade70f2126ea_39930_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-03-09_hu4ff013139ca6dd1f7331ade70f2126ea_39930_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;404&#34;
+		data-flex-basis=&#34;970px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;13-向量的分解&#34;&gt;1.3 向量的分解&lt;/h2&gt;
+&lt;p&gt;在任何一个标准的坐标系中的一个向量，可以分解成该向量分别向3个轴的投影相加&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-05-08.png&#34;
+	width=&#34;1005&#34;
+	height=&#34;630&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-05-08_hu48fe1b7b16d0a908ddfbff78ad14b20f_74529_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-05-08_hu48fe1b7b16d0a908ddfbff78ad14b20f_74529_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;382px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;14-矩阵的怎么算&#34;&gt;1.4 矩阵的怎么算&lt;/h2&gt;
+&lt;p&gt;看下图，等式右边 2行4列的26，取左边第一个矩阵的2行(5,2)，第二个矩阵的(4,3)&lt;sup&gt;T&lt;/sup&gt;, 26= 5x4+2x3&lt;br&gt;
+&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-48-36.png&#34;
+	width=&#34;1332&#34;
+	height=&#34;275&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-48-36_hud6c751079fb8925d493ad6d43e59621a_52202_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-48-36_hud6c751079fb8925d493ad6d43e59621a_52202_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;484&#34;
+		data-flex-basis=&#34;1162px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;15-矩阵相乘&#34;&gt;1.5 矩阵相乘&lt;/h2&gt;
+&lt;p&gt;1、矩阵相乘 不满足交换律&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-49-53.png&#34;
+	width=&#34;885&#34;
+	height=&#34;415&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-49-53_hu880e86b31e121c6169db5a30832ee9b2_44684_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-17-49-53_hu880e86b31e121c6169db5a30832ee9b2_44684_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;511px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;2、矩阵的转置 相乘 满足下面的公式&lt;br&gt;
+&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-18-11-53.png&#34;
+	width=&#34;710&#34;
+	height=&#34;130&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-18-11-53_hu33e0e5691553e0ce142bf7dd0e420c37_8029_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-18-11-53_hu33e0e5691553e0ce142bf7dd0e420c37_8029_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;546&#34;
+		data-flex-basis=&#34;1310px&#34;
+	
+&gt;&lt;br&gt;
+3、矩阵的逆相乘 满足下面的公式&lt;br&gt;
+&lt;img src=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-18-13-08.png&#34;
+	width=&#34;639&#34;
+	height=&#34;617&#34;
+	srcset=&#34;https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-18-13-08_hu03b2d463e9f2a79553205a6eee1b3e8b_30384_480x0_resize_box_3.png 480w, https://karaner.github.io/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/attachments/pasted-img-2023-10-15-18-13-08_hu03b2d463e9f2a79553205a6eee1b3e8b_30384_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;248px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
