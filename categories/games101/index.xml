@@ -13,8 +13,8 @@
         <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
         
         <guid>https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/</guid>
-        <description>&lt;h2 id=&#34;11-线性变换&#34;&gt;1.1 线性变换&lt;/h2&gt;
-&lt;h4 id=&#34;111-缩放变换&#34;&gt;1.1.1 缩放变换&lt;/h4&gt;
+        <description>&lt;h2 id=&#34;1--线性变换&#34;&gt;1  线性变换&lt;/h2&gt;
+&lt;h4 id=&#34;11-缩放变换&#34;&gt;1.1 缩放变换&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-19-26-02.png&#34;
 	width=&#34;778&#34;
 	height=&#34;222&#34;
@@ -27,7 +27,7 @@
 		data-flex-basis=&#34;841px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h4 id=&#34;112-反射变换&#34;&gt;1.1.2 反射变换&lt;/h4&gt;
+&lt;h4 id=&#34;12-反射变换&#34;&gt;1.2 反射变换&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-19-32-41.png&#34;
 	width=&#34;1334&#34;
 	height=&#34;799&#34;
@@ -40,7 +40,7 @@
 		data-flex-basis=&#34;400px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h4 id=&#34;113--切变变换&#34;&gt;1.1.3  切变变换&lt;/h4&gt;
+&lt;h4 id=&#34;13--切变变换&#34;&gt;1.3  切变变换&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-19-33-21.png&#34;
 	width=&#34;1401&#34;
 	height=&#34;803&#34;
@@ -53,7 +53,7 @@
 		data-flex-basis=&#34;418px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h4 id=&#34;114--旋转变换&#34;&gt;1.1.4  旋转变换&lt;/h4&gt;
+&lt;h4 id=&#34;14--旋转变换&#34;&gt;1.4  旋转变换&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-19-34-14.png&#34;
 	width=&#34;1368&#34;
 	height=&#34;776&#34;
@@ -69,8 +69,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&#34;background:#d3f8b6&#34;&gt;推导对应矩阵，就是用特殊点代入去推导&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;12-齐次坐标&#34;&gt;1.2 齐次坐标&lt;/h2&gt;
-&lt;h4 id=&#34;121-平移变换&#34;&gt;1.2.1 平移变换&lt;/h4&gt;
+&lt;h2 id=&#34;2-齐次坐标&#34;&gt;2 齐次坐标&lt;/h2&gt;
+&lt;h4 id=&#34;21-平移变换&#34;&gt;2.1 平移变换&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-19-41-43.png&#34;
 	width=&#34;1353&#34;
 	height=&#34;769&#34;
@@ -98,7 +98,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&#34;background:#d3f8b6&#34;&gt;平移变换，不是线性变换，我们不想特殊用一种表示去处理平移变换，所以我们引入齐次坐标的概念&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;122-引入齐次坐标&#34;&gt;1.2.2 引入齐次坐标&lt;/h4&gt;
+&lt;h4 id=&#34;22-引入齐次坐标&#34;&gt;2.2 引入齐次坐标&lt;/h4&gt;
 &lt;p&gt;我们通过在n维坐标上，向上引入多一维的坐标，来重新表示点和向量&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-20-05-20.png&#34;
 	width=&#34;995&#34;
@@ -163,7 +163,7 @@
 		data-flex-basis=&#34;324px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;13-逆变换&#34;&gt;1.3 逆变换&lt;/h2&gt;
+&lt;h2 id=&#34;3-逆变换&#34;&gt;3 逆变换&lt;/h2&gt;
 &lt;p&gt;在几何上，变换的逆变换，有这样的效果，几何进行了一次变换，再进行一次逆变换，会回到原来的位置&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-20-19-40.png&#34;
 	width=&#34;518&#34;
@@ -177,8 +177,8 @@
 		data-flex-basis=&#34;248px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;14-组合变换&#34;&gt;1.4 组合变换&lt;/h2&gt;
-&lt;h4 id=&#34;141-组合变换中变换的顺序很重要&#34;&gt;1.4.1 组合变换中，变换的顺序很重要&lt;/h4&gt;
+&lt;h2 id=&#34;4-组合变换&#34;&gt;4 组合变换&lt;/h2&gt;
+&lt;h4 id=&#34;41-组合变换中变换的顺序很重要&#34;&gt;4.1 组合变换中，变换的顺序很重要&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-20-26-16.png&#34;
 	width=&#34;1327&#34;
 	height=&#34;890&#34;
@@ -204,8 +204,8 @@
 		data-flex-basis=&#34;717px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;15分解复杂的变换&#34;&gt;1.5分解复杂的变换&lt;/h2&gt;
-&lt;h4 id=&#34;151-思考如果绕着一个点做旋转&#34;&gt;1.5.1 思考如果绕着一个点做旋转&lt;/h4&gt;
+&lt;h2 id=&#34;5-分解复杂的变换&#34;&gt;5 分解复杂的变换&lt;/h2&gt;
+&lt;h4 id=&#34;51-思考如果绕着一个点做旋转&#34;&gt;5.1 思考如果绕着一个点做旋转&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-20-31-10.png&#34;
 	width=&#34;1436&#34;
 	height=&#34;805&#34;
@@ -219,7 +219,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;先平移的逆变换到原点，做旋转变换，再通过做平移变换，得出最后想要的结果&lt;/p&gt;
-&lt;h2 id=&#34;15-3d坐标中的变换&#34;&gt;1.5 3D坐标中的变换&lt;/h2&gt;
+&lt;h2 id=&#34;6-3d坐标中的变换&#34;&gt;6 3D坐标中的变换&lt;/h2&gt;
 &lt;p&gt;可以类比2D,得出相同的结论&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://karaner.github.io/p/%E5%8F%98%E6%8D%A2/attachments/pasted-img-2023-10-15-20-33-56.png&#34;
 	width=&#34;1103&#34;
