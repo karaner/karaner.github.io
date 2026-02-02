@@ -1,84 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Categories on 全知之树</title>
-        <link>https://example.com/categories/</link>
-        <description>Recent content in Categories on 全知之树</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>WYH</copyright>
-        <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Android</title>
-        <link>https://example.com/categories/android/</link>
-        <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/android/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Games101</title>
-        <link>https://example.com/categories/games101/</link>
-        <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/games101/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>TextMeshPro</title>
-        <link>https://example.com/categories/textmeshpro/</link>
-        <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/textmeshpro/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>3dsMax</title>
-        <link>https://example.com/categories/3dsmax/</link>
-        <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/3dsmax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>OpenGL</title>
-        <link>https://example.com/categories/opengl/</link>
-        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/opengl/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://example.com/categories/test/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/test/</guid>
-        <description>&lt;img src="https://example.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
-        <title>测试</title>
-        <link>https://example.com/categories/%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>syntax</title>
-        <link>https://example.com/categories/syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>themes</title>
-        <link>https://example.com/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/themes/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 燃着的小太阳</title>
+    <link>https://adityatelange.github.io/categories/</link>
+    <description>Recent content in Categories on 燃着的小太阳</description>
+    <image>
+      <title>燃着的小太阳</title>
+      <url>https://adityatelange.github.io/images/papermod-cover.png</url>
+      <link>https://adityatelange.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.0</generator>
+    <language>zh</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>https://adityatelange.github.io/categories/android/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/categories/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Games101</title>
+      <link>https://adityatelange.github.io/categories/games101/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/categories/games101/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TextMeshPro</title>
+      <link>https://adityatelange.github.io/categories/textmeshpro/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/categories/textmeshpro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3dsMax</title>
+      <link>https://adityatelange.github.io/categories/3dsmax/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/categories/3dsmax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenGL</title>
+      <link>https://adityatelange.github.io/categories/opengl/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/categories/opengl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Syntax</title>
+      <link>https://adityatelange.github.io/categories/syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/categories/syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>https://adityatelange.github.io/categories/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/categories/themes/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

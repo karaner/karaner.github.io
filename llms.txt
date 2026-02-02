@@ -1,0 +1,24 @@
+# 燃着的小太阳
+
+## Posts
+- [Markdown Syntax Guide For L2](https://adityatelange.github.io/posts/markdown-syntax.fr/)
+- [Markdown Syntax Guide For RTL](https://adityatelange.github.io/posts/markdown-syntax.fa/)
+- [AdnroidStudio导出库Jar包位置](https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/)
+- [变换](https://adityatelange.github.io/posts/graphics/games101/%E5%8F%98%E6%8D%A2/)
+- [向量和线性代数](https://adityatelange.github.io/posts/graphics/games101/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/)
+- [Sprite Asset制作](https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/)
+- [3dsmax模型制作模型单位设置和导出规范](https://adityatelange.github.io/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/)
+- [视图变换、正交投影和透视投影](https://adityatelange.github.io/posts/graphics/games101/%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E5%92%8C%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1/)
+- [如何在visual studio中配置freeglut和glew](https://adityatelange.github.io/posts/opengl/%E5%A6%82%E4%BD%95%E5%9C%A8visual-studio%E4%B8%AD%E9%85%8D%E7%BD%AEfreeglut%E5%92%8Cglew/)
+- [Markdown Syntax Guide](https://adityatelange.github.io/posts/markdown-syntax/)
+- [Code Syntax Guide](https://adityatelange.github.io/posts/code_syntax/)
+- [Rich Content and Shortcodes](https://adityatelange.github.io/posts/rich-content/)
+- [Math Typesetting](https://adityatelange.github.io/posts/math-typesetting/)
+- [Emoji Support](https://adityatelange.github.io/posts/emoji-support/)
+
+### PaperMod
+- [Install / Update PaperMod](https://adityatelange.github.io/posts/papermod/papermod-installation/)
+- [Features / Mods](https://adityatelange.github.io/posts/papermod/papermod-features/)
+- [FAQs / How To's Guide](https://adityatelange.github.io/posts/papermod/papermod-faq/)
+- [Social-Icons / Share-Icons](https://adityatelange.github.io/posts/papermod/papermod-icons/)
+- [Variables | Front Matter](https://adityatelange.github.io/posts/papermod/papermod-variables/)

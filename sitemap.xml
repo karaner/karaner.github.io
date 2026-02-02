@@ -2,103 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://adityatelange.github.io/posts/papermod/papermod-installation/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/papermod/papermod-features/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/markdown-syntax.fr/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/markdown-syntax.fa/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/papermod/papermod-faq/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/papermod/papermod-icons/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/papermod/papermod-variables/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</loc>
+    <loc>https://adityatelange.github.io/categories/android/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/android/</loc>
+    <loc>https://adityatelange.github.io/categories/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://adityatelange.github.io/categories/games101/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/games101/</loc>
+    <loc>https://adityatelange.github.io/posts/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>https://adityatelange.github.io/posts/graphics/games101/%E5%8F%98%E6%8D%A2/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E5%8F%98%E6%8D%A2/</loc>
+    <loc>https://adityatelange.github.io/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
+    <loc>https://adityatelange.github.io/posts/graphics/games101/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/sprite-asset%E5%88%B6%E4%BD%9C/</loc>
+    <loc>https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/textmeshpro/</loc>
+    <loc>https://adityatelange.github.io/categories/textmeshpro/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/3dsmax/</loc>
+    <loc>https://adityatelange.github.io/categories/3dsmax/</loc>
     <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</loc>
+    <loc>https://adityatelange.github.io/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</loc>
     <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E5%92%8C%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1/</loc>
+    <loc>https://adityatelange.github.io/posts/graphics/games101/%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E5%92%8C%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/opengl/</loc>
+    <loc>https://adityatelange.github.io/categories/opengl/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E5%A6%82%E4%BD%95%E5%9C%A8visual-studio%E4%B8%AD%E9%85%8D%E7%BD%AEfreeglut%E5%92%8Cglew/</loc>
+    <loc>https://adityatelange.github.io/posts/opengl/%E5%A6%82%E4%BD%95%E5%9C%A8visual-studio%E4%B8%AD%E9%85%8D%E7%BD%AEfreeglut%E5%92%8Cglew/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://adityatelange.github.io/tags/docs/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/test/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://adityatelange.github.io/posts/papermod/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://adityatelange.github.io/series/papermod/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/page/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://adityatelange.github.io/tags/papermod/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://adityatelange.github.io/series/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/css/</loc>
+    <loc>https://adityatelange.github.io/tags/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/html/</loc>
+    <loc>https://adityatelange.github.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
+    <loc>https://adityatelange.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/markdown-syntax-guide/</loc>
+    <loc>https://adityatelange.github.io/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/syntax/</loc>
+    <loc>https://adityatelange.github.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://adityatelange.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/themes/</loc>
+    <loc>https://adityatelange.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/themes/</loc>
+    <loc>https://adityatelange.github.io/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/math-typesetting/</loc>
+    <loc>https://adityatelange.github.io/tags/code/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/code_syntax/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/tags/gist/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/tags/syntax/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adityatelange.github.io/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/emoji/</loc>
+    <loc>https://adityatelange.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/emoji-support/</loc>
+    <loc>https://adityatelange.github.io/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://adityatelange.github.io/archives.fr/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://adityatelange.github.io/archives/</loc>
   </url><url>
-    <loc>https://example.com/%E5%8F%8B%E9%93%BE/</loc>
+    <loc>https://adityatelange.github.io/search/</loc>
+  </url><url>
+    <loc>https://adityatelange.github.io/search.fr/</loc>
   </url>
 </urlset>

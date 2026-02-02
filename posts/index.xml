@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 燃着的小太阳</title>
+    <link>https://adityatelange.github.io/posts/</link>
+    <description>Recent content in Posts on 燃着的小太阳</description>
+    <image>
+      <title>燃着的小太阳</title>
+      <url>https://adityatelange.github.io/images/papermod-cover.png</url>
+      <link>https://adityatelange.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.0</generator>
+    <language>zh</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide For L2</title>
+      <link>https://adityatelange.github.io/posts/markdown-syntax.fr/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/markdown-syntax.fr/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide For RTL</title>
+      <link>https://adityatelange.github.io/posts/markdown-syntax.fa/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/markdown-syntax.fa/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>AdnroidStudio导出库Jar包位置</title>
+      <link>https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</guid>
+      <description>&lt;h2 id=&#34;1导出库代码jar包位置&#34;&gt;1、导出库代码Jar包位置&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/attachments/pasted-img-2023-10-15-01-02-15.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>变换</title>
+      <link>https://adityatelange.github.io/posts/graphics/games101/%E5%8F%98%E6%8D%A2/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/graphics/games101/%E5%8F%98%E6%8D%A2/</guid>
+      <description>这是Games101的学习记录</description>
+    </item>
+    <item>
+      <title>向量和线性代数</title>
+      <link>https://adityatelange.github.io/posts/graphics/games101/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/graphics/games101/%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</guid>
+      <description>这是Games101的学习记录</description>
+    </item>
+    <item>
+      <title>Sprite Asset制作</title>
+      <link>https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13-1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13-2.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3dsmax模型制作模型单位设置和导出规范</title>
+      <link>https://adityatelange.github.io/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</guid>
+      <description>解决3dsmax模型导出后，导入u3d没有缩放情况下，大小一致问题</description>
+    </item>
+    <item>
+      <title>视图变换、正交投影和透视投影</title>
+      <link>https://adityatelange.github.io/posts/graphics/games101/%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E5%92%8C%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/graphics/games101/%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E5%92%8C%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1/</guid>
+      <description>这是Games101的学习记录</description>
+    </item>
+    <item>
+      <title>如何在visual studio中配置freeglut和glew</title>
+      <link>https://adityatelange.github.io/posts/opengl/%E5%A6%82%E4%BD%95%E5%9C%A8visual-studio%E4%B8%AD%E9%85%8D%E7%BD%AEfreeglut%E5%92%8Cglew/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/opengl/%E5%A6%82%E4%BD%95%E5%9C%A8visual-studio%E4%B8%AD%E9%85%8D%E7%BD%AEfreeglut%E5%92%8Cglew/</guid>
+      <description>可以知道在vs中如何配置库和头文件</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://adityatelange.github.io/posts/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/markdown-syntax/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Code Syntax Guide</title>
+      <link>https://adityatelange.github.io/posts/code_syntax/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/code_syntax/</guid>
+      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Rich Content and Shortcodes</title>
+      <link>https://adityatelange.github.io/posts/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/rich-content/</guid>
+      <description>A brief description of Hugo Shortcodes</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://adityatelange.github.io/posts/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/math-typesetting/</guid>
+      <description>A brief guide to setup KaTeX</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>https://adityatelange.github.io/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/emoji-support/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
+  </channel>
+</rss>

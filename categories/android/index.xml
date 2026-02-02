@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Android on 全知之树</title>
-        <link>https://example.com/categories/android/</link>
-        <description>Recent content in Android on 全知之树</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>WYH</copyright>
-        <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/android/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>AdnroidStudio导出库Jar包位置</title>
-        <link>https://example.com/p/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</link>
-        <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/p/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</guid>
-        <description>&lt;h2 id=&#34;1导出库代码jar包位置&#34;&gt;1、导出库代码Jar包位置&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/attachments/pasted-img-2023-10-15-01-02-15.png&#34;
-	width=&#34;492&#34;
-	height=&#34;594&#34;
-	srcset=&#34;https://example.com/p/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/attachments/pasted-img-2023-10-15-01-02-15_huc1c966136d4d19ea604c6ef131b856e0_32243_480x0_resize_box_3.png 480w, https://example.com/p/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/attachments/pasted-img-2023-10-15-01-02-15_huc1c966136d4d19ea604c6ef131b856e0_32243_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;82&#34;
-		data-flex-basis=&#34;198px&#34;
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Android on 燃着的小太阳</title>
+    <link>https://adityatelange.github.io/categories/android/</link>
+    <description>Recent content in Android on 燃着的小太阳</description>
+    <image>
+      <title>燃着的小太阳</title>
+      <url>https://adityatelange.github.io/images/papermod-cover.png</url>
+      <link>https://adityatelange.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.0</generator>
+    <language>zh</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://adityatelange.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AdnroidStudio导出库Jar包位置</title>
+      <link>https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</guid>
+      <description>&lt;h2 id=&#34;1导出库代码jar包位置&#34;&gt;1、导出库代码Jar包位置&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/attachments/pasted-img-2023-10-15-01-02-15.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
