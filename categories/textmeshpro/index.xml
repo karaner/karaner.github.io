@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TextMeshPro on 燃着的小太阳</title>
-    <link>https://adityatelange.github.io/categories/textmeshpro/</link>
+    <link>http://localhost:1313/categories/textmeshpro/</link>
     <description>Recent content in TextMeshPro on 燃着的小太阳</description>
     <image>
       <title>燃着的小太阳</title>
-      <url>https://adityatelange.github.io/images/papermod-cover.png</url>
-      <link>https://adityatelange.github.io/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.155.0</generator>
     <language>zh</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://adityatelange.github.io/categories/textmeshpro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/textmeshpro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sprite Asset制作</title>
-      <link>https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/</link>
+      <link>http://localhost:1313/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13.png&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13-1.png&#34;&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://adityatelange.github.io/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13-2.png&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13-1.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/unity3d/textmeshpro/sprite-asset%E5%88%B6%E4%BD%9C/attachments/pasted-img-2023-10-15-00-40-13-2.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
