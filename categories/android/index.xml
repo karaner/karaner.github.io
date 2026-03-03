@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Android on 燃着的小太阳</title>
-    <link>https://karaner.github.io/categories/android/</link>
+    <link>http://localhost:1313/categories/android/</link>
     <description>Recent content in Android on 燃着的小太阳</description>
     <image>
       <title>燃着的小太阳</title>
-      <url>https://karaner.github.io/images/papermod-cover.png</url>
-      <link>https://karaner.github.io/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.155.0</generator>
     <language>zh</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://karaner.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AdnroidStudio导出库Jar包位置</title>
-      <link>https://karaner.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</link>
+      <link>http://localhost:1313/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://karaner.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</guid>
+      <guid>http://localhost:1313/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/</guid>
       <description>&lt;h2 id=&#34;1导出库代码jar包位置&#34;&gt;1、导出库代码Jar包位置&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://karaner.github.io/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/attachments/pasted-img-2023-10-15-01-02-15.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/android/adnroidstudio%E5%AF%BC%E5%87%BA%E5%BA%93jar%E5%8C%85%E4%BD%8D%E7%BD%AE/attachments/pasted-img-2023-10-15-01-02-15.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

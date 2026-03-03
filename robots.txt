@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://karaner.github.io/sitemap.xml
+Sitemap: http://localhost:1313/sitemap.xml
