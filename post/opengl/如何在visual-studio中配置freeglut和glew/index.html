@@ -1,0 +1,322 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>如何在visual studio中配置freeglut和glew - 文章</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="1 下载freeglut和glew库
+
+从这个地址https://www.transmissionzero.co.uk/software/freeglut-devel/下载编译好的freeglut版本
+
+
+
+从这个地址https://glew.sourceforge.net/下载编译好的glew版本
+
+
+2 在Visual Studio工程中进行配置
+先新建一个C&#43;&#43;的控制台应用，然后进行下列的配置
+2.1 配置include包含目录和lib目录
+
+点开“项目”，右键点击“属性”
+
+
+2.VC&#43;&#43;-&gt;常规-&gt;包含目录，把下载的freeglut和glew库的include文件夹添加进去，（包括后面）建议“所有配置”和“所有平台”
+
+3.VC&#43;&#43;-&gt;常规→，库目录，把下载的freeglut和glew库的lib文件夹添加进去,我电脑是64位，我这边就添加了64位的目录进去
+
+2.2 复制freeglut.dll程序集到生成目录里
+
+在main函数文件里运行下段代码，会报错
+
+#include &lt;iostream&gt;
+#include &lt;GL/freeglut.h&gt;//freeGLUT窗口库
+
+/**
+ * 渲染回调函数
+ */
+void RenderScenceCB() {
+    // 清空颜色缓存
+    glClear(GL_COLOR_BUFFER_BIT);
+
+    // 获取 OpenGL 版本信息
+    const char* version = (const char*)glGetString(GL_VERSION);
+    std::cout &lt;&lt; &#34;OpenGL Version: &#34; &lt;&lt; version &lt;&lt; std::endl;
+
+    // 交换前后缓存
+    glutSwapBuffers();
+}
+
+/**
+ * 主函数
+ */
+int main(int argc, char** argv) {
+
+    // 初始化GLUT
+    glutInit(&amp;argc, argv);
+
+    // 显示模式：双缓冲、RGBA
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+
+    // 窗口设置
+    glutInitWindowSize(480, 320);      // 窗口尺寸
+    glutInitWindowPosition(100, 100);  // 窗口位置
+    glutCreateWindow(&#34;Tutorial 01&#34;);   // 窗口标题
+
+    // 开始渲染
+    glutDisplayFunc(RenderScenceCB);
+
+    // 缓存清空后的颜色值
+    glClearColor(0.0f, 1.0f, 0.0f, 0.0f);
+
+    // 通知开始GLUT的内部循环
+    glutMainLoop();
+
+    return 0;
+}
+2.点击“项目”，右键点击“在文件资源管理器中打开文件夹”" />
+  <meta name="author" content="燃" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.e86ae67e01e2d2055106abf72be7357c950191060e5f159f24e2790fd8237e8c.css" integrity="sha256-6GrmfgHi0gVRBqv3K&#43;c1fJUBkQYOXxWfJOJ5D9gjfow=" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/287510defea86e98e1c67a71e172f903?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="http://localhost:1313/github.svg" />
+
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad()"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.155.0">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/"
+      >文章</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? "rgb(0 0 0 / 85%)" : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >关于</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >联系</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/karaner"
+        target="_blank"
+        rel="me"
+      >github</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">如何在visual studio中配置freeglut和glew</h1><div class="text-xs antialiased opacity-60"><time>Apr 17, 2021</time></div></header>
+
+  <section><h2 id="1-下载freeglut和glew库">1 下载freeglut和glew库</h2>
+<ul>
+<li>从这个地址<a href="https://www.transmissionzero.co.uk/software/freeglut-devel/">https://www.transmissionzero.co.uk/software/freeglut-devel/</a>下载编译好的freeglut版本</li>
+</ul>
+<p><img src="image.png" alt="image.png"></p>
+<ul>
+<li>从这个地址<a href="https://glew.sourceforge.net/">https://glew.sourceforge.net/</a>下载编译好的glew版本</li>
+</ul>
+<p><img src="image1.png" alt="image.png"></p>
+<h2 id="2-在visual-studio工程中进行配置">2 在Visual Studio工程中进行配置</h2>
+<p>先新建一个C++的控制台应用，然后进行下列的配置</p>
+<h3 id="21-配置include包含目录和lib目录">2.1 配置include包含目录和lib目录</h3>
+<ol>
+<li>点开“项目”，右键点击“属性”</li>
+</ol>
+<p><img src="image2.png" alt="image.png"></p>
+<p>2.VC++-&gt;常规-&gt;包含目录，把下载的freeglut和glew库的include文件夹添加进去，（包括后面）建议“所有配置”和“所有平台”</p>
+<p><img src="image3.png" alt="image.png"></p>
+<p>3.VC++-&gt;常规→，库目录，把下载的freeglut和glew库的lib文件夹添加进去,我电脑是64位，我这边就添加了64位的目录进去</p>
+<p><img src="image4.png" alt="image.png"></p>
+<h3 id="22-复制freeglutdll程序集到生成目录里">2.2 复制freeglut.dll程序集到生成目录里</h3>
+<ol>
+<li>在main函数文件里运行下段代码，会报错</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span>include &lt;iostream&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span>include &lt;GL/freeglut.h&gt;<span style="color:#75715e">//freeGLUT窗口库</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * 渲染回调函数
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> RenderScenceCB() {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 清空颜色缓存</span>
+</span></span><span style="display:flex;"><span>    glClear(GL_COLOR_BUFFER_BIT);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 获取 OpenGL 版本信息</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">char</span>* version = (<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">char</span>*)glGetString(GL_VERSION);
+</span></span><span style="display:flex;"><span>    std::cout &lt;&lt; <span style="color:#e6db74">&#34;OpenGL Version: &#34;</span> &lt;&lt; version &lt;&lt; std::endl;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 交换前后缓存</span>
+</span></span><span style="display:flex;"><span>    glutSwapBuffers();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * 主函数
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> main(<span style="color:#66d9ef">int</span> argc, <span style="color:#66d9ef">char</span>** argv) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 初始化GLUT</span>
+</span></span><span style="display:flex;"><span>    glutInit(&amp;argc, argv);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 显示模式：双缓冲、RGBA</span>
+</span></span><span style="display:flex;"><span>    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 窗口设置</span>
+</span></span><span style="display:flex;"><span>    glutInitWindowSize(<span style="color:#ae81ff">480</span>, <span style="color:#ae81ff">320</span>);      <span style="color:#75715e">// 窗口尺寸</span>
+</span></span><span style="display:flex;"><span>    glutInitWindowPosition(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">100</span>);  <span style="color:#75715e">// 窗口位置</span>
+</span></span><span style="display:flex;"><span>    glutCreateWindow(<span style="color:#e6db74">&#34;Tutorial 01&#34;</span>);   <span style="color:#75715e">// 窗口标题</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 开始渲染</span>
+</span></span><span style="display:flex;"><span>    glutDisplayFunc(RenderScenceCB);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 缓存清空后的颜色值</span>
+</span></span><span style="display:flex;"><span>    glClearColor(<span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">1.0f</span>, <span style="color:#ae81ff">0.0f</span>, <span style="color:#ae81ff">0.0f</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 通知开始GLUT的内部循环</span>
+</span></span><span style="display:flex;"><span>    glutMainLoop();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>2.点击“项目”，右键点击“在文件资源管理器中打开文件夹”</p>
+<p><img src="image5.png" alt="image.png"></p>
+<p>3.讲下载下来的freeglut.dll（在下载下来的bin目录里）复制到生成目录里，再运行就正常了，这样就可以进行正常的OpenGL API测试</p>
+<p><img src="image6.png" alt="image.png"></p>
+</section>
+
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/post/graphics/games101/%E8%A7%86%E5%9B%BE%E5%8F%98%E6%8D%A2%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E5%92%8C%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>视图变换、正交投影和透视投影</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="http://localhost:1313/post/markdown-syntax/"
+      ><span>Markdown Syntax Guide</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">© 2026, 燃</div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>

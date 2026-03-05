@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Paper</title>
+    <title>Categories on 文章</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Paper</description>
+    <description>Recent content in Categories on 文章</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2026, 燃</copyright>
