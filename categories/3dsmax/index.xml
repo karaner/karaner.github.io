@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3dsMax on johndoe</title>
+    <title>3dsMax on Paper</title>
     <link>http://localhost:1313/categories/3dsmax/</link>
-    <description>Recent content in 3dsMax on johndoe</description>
+    <description>Recent content in 3dsMax on Paper</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <copyright>© 2026, 燃</copyright>
     <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/3dsmax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3dsmax模型制作模型单位设置和导出规范</title>
-      <link>http://localhost:1313/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</link>
+      <link>http://localhost:1313/post/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</link>
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</guid>
-      <description>&lt;p&gt;1、设置显示单位为米&#xA;&lt;img src=&#34;http://localhost:1313/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/attachments/pasted-img-2023-10-14-23-57-18.png&#34; alt=&#34;&#34;&gt;&#xA;2、设置系统单位 1 Unit = 1 厘米&#xA;&lt;img src=&#34;http://localhost:1313/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/attachments/pasted-img-2023-10-14-23-57-18-1.png&#34; alt=&#34;&#34;&gt;&#xA;3、导出单位中勾选 Automatic&#xA;&lt;img src=&#34;http://localhost:1313/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/attachments/pasted-img-2023-10-14-23-57-18-2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;4、效果&#xA;&lt;img src=&#34;http://localhost:1313/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/attachments/pasted-img-2023-10-14-23-57-18-3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/attachments/pasted-img-2023-10-14-23-57-18-4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/unity3d/3dsmax/3dsmax%E6%A8%A1%E5%9E%8B%E5%88%B6%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%AF%BC%E5%87%BA%E8%A7%84%E8%8C%83/</guid>
+      <description>&lt;p&gt;1、设置显示单位为米&#xA;&lt;img src=&#34;attachments/pasted-img-2023-10-14-23-57-18.png&#34; alt=&#34;&#34;&gt;&#xA;2、设置系统单位 1 Unit = 1 厘米&#xA;&lt;img src=&#34;attachments/pasted-img-2023-10-14-23-57-18-1.png&#34; alt=&#34;&#34;&gt;&#xA;3、导出单位中勾选 Automatic&#xA;&lt;img src=&#34;attachments/pasted-img-2023-10-14-23-57-18-2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;4、效果&#xA;&lt;img src=&#34;attachments/pasted-img-2023-10-14-23-57-18-3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;attachments/pasted-img-2023-10-14-23-57-18-4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
